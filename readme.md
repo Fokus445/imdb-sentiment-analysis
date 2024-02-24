@@ -1,7 +1,7 @@
 # User Review Sentiment Analysis with Keras
 
 ## Data Preprocessing
- First, I ensured that I downloaded the IMDb review dataset. The dataset contains 50,000 files divided into training and testing sets, each set containing positive and negative reviews.
+ First, I downloaded the IMDb review dataset. The dataset contains 50,000 files divided into training and testing sets, each set containing positive and negative reviews.
  
 ### Creating validation dataset
  I split the training data further to create a validation set. I allocated 20% of the training data to the validation set. The directory structure looks like this:
