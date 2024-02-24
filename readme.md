@@ -4,7 +4,7 @@
  First, I downloaded the IMDb review dataset. The dataset contains 50,000 files divided into training and testing sets, each set containing positive and negative reviews.
  
 ### Creating validation dataset
- I split the training data further to create a validation set. I allocated 20% of the training data to the validation set. The directory structure looks like this:
+ I split the training data further to create a validation set. I allocated 20% of the training data to the validation set.
 
 ### Converting to Tensorflow tensors
  I used the Keras text_dataset_from_directory utility to create TensorFlow datasets directly from the directory structure of the dataset. These datasets will contain TensorFlow tensors for text inputs and integer tensors for sentiment labels.
